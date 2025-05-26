@@ -1,4 +1,4 @@
-const API_KEY = 'b196726aba8ff934e22fdcc705d44d5a'
+const API_KEY = 'PLease add you weather api key here'
 
 export const fetchWeather = async (city) => {
   const res = await fetch(
