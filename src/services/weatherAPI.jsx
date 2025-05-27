@@ -1,4 +1,4 @@
-const API_KEY = "b196726aba8ff934e22fdcc705d44d5a";
+const API_KEY = "Please add ypu api key";
 
 export const fetchWeather = async (city, unit = "metric") => {
   const res = await fetch(
