@@ -9,6 +9,7 @@ A weather dashboard built with React, featuring real-time API polling, error han
 - Local storage for last searched city
 - React Context API for state management
 - Responsive UI using CSS Modules
+- Can toggle for Units
 
 ## 📦 Tech Stack
 React 18, Context API, CSS Modules
