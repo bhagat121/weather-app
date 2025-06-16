@@ -12,10 +12,10 @@ export const WeatherProvider = ({ children }) => {
   const loadWeather = async (cityName = city) => {
     try {
       const data = await fetchWeather(cityName);
-      setCity(cityName); // ✅ this will make sure city stays updated
+      setCity(cityName); // this will make sure city stays updated
       setWeather(data);
       setError(null);
-      localStorage.setItem("lastCity", cityName); // ✅ so it persists after reload
+      localStorage.setItem("lastCity", cityName); // so it persists after reload
     } catch (err) {
       setError("Could not fetch weather. Please check the city name.");
       setWeather(null);
